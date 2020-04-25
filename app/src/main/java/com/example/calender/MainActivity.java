@@ -17,5 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        edtDateOne = (EditText) findViewById(R.id.editTextDateOne);
+        edtDateTwo = (EditText) findViewById(R.id.editTextDateTwo);
     }
 }
